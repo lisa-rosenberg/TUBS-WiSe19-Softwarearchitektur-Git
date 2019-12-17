@@ -32,7 +32,7 @@ Als Leistung soll eine 5-10 minütige Präsentation gehalten werden.
 * [Zusammenhang zwischen statischer und dynamischer Sicht](Sichten/README.md)
 * [Systembewertung](Systembewertung/README.md)
 
-## Links
+## Nützliche Links
 * [Git on GitHub](https://github.com/git/git)
 * [Architecture of Open-Source-Software (Git)](https://www.aosabook.org/en/git.html)
 * [Git Data Model](https://astahblog.com/2015/09/08/git-data-model/)
