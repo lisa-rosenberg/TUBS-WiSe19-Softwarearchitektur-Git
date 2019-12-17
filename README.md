@@ -28,8 +28,8 @@ Als Leistung soll eine 5-10 minütige Präsentation gehalten werden.
 ### Themengebiete
 * [Motivation](Motivation/README.md)
 * [Workflow](Workflow/README.md)
-* [Architektur und Datentypen](Architektur der Datentypen/README.md)
-* [Zusammenhang zwischen statischer und dynamischer Sicht](Zusammenhang dynamische und statische Sicht/README.md)
+* [Architektur und Datentypen](Architektur/README.md)
+* [Zusammenhang zwischen statischer und dynamischer Sicht](Sichten/README.md)
 * [Systembewertung](Systembewertung/README.md)
 
 
