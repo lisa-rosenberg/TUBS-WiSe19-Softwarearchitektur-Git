@@ -32,4 +32,15 @@ Als Leistung soll eine 5-10 minütige Präsentation gehalten werden.
 * [Zusammenhang zwischen statischer und dynamischer Sicht](Sichten/README.md)
 * [Systembewertung](Systembewertung/README.md)
 
-
+## Links
+* [Git on GitHub](https://github.com/git/git)
+* [Architecture of Open-Source-Software (Git)](https://www.aosabook.org/en/git.html)
+* [Git Data Model](https://astahblog.com/2015/09/08/git-data-model/)
+* [Architecture and History of Git](https://medium.com/@willhayjr/the-architecture-and-history-of-git-a-distributed-version-control-system-62b17dd37742)
+* [Learning the Git Architecture in 15 Minutes](https://medium.com/angular-in-depth/become-a-git-pro-by-learning-git-architecture-in-15-minutes-9c995db6faeb)
+* [Slides: Git Architecture](https://de.slideshare.net/alexprut/git-architecture)
+* [Git Documentation: Git Internals - Plumbing and Porcelain](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain)
+* [Git Documentation: Git Internals - Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
+* [Git Documentation: Git Internals - Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)
+* [Video: Git Internals - How Git Works - Fear bot the SHA!](https://www.youtube.com/watch?v=P6jD966jzlk)
+* [Quora: Design Patterns of Git](https://www.quora.com/What-design-patterns-did-Linus-Torvalds-use-when-writing-Git)
