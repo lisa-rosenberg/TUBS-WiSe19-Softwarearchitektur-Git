@@ -1,10 +1,10 @@
-# Softwarearchitektur - Architekturbewertung von Git (Gruppenarbeit)
+# Softwarearchitektur - Architekturbewertung von Git
 
 ## Einleitung
 
 ### Ziel
 In dieser Gruppenaufgabe soll eine Architekturbewertung der Open-Source-Software Git erfolgen.
-In Diesem Repository befinden sich alle Ergebnisse der Gruppenarbeit.
+In diesem Repository befinden sich alle Ergebnisse der Gruppenarbeit.
 
 ### Aufgabe
 * Softwarearchitektur analysieren
@@ -25,7 +25,7 @@ Als Leistung soll eine 5-10 minütige Präsentation gehalten werden.
 * Nayel Fabian Salem
 * Lisa Rosenberg
 
-### Themengebiete
+## Themengebiete
 * [Motivation](Motivation/README.md)
 * [Workflow](Workflow/README.md)
 * [Architektur und Datentypen](Architektur/README.md)
