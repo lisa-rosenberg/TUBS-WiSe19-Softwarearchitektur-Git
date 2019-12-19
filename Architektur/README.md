@@ -12,21 +12,21 @@
 * Ähnlich einer Datei
 * Aber: Dateiname wird nicht gespeichert!
 * Inhalt von blob-Objekten
-    * Objekttyp
+    * Objekttyp "blob"
     * SHA-1-Wert
     * Inhalt der Datei
     
 #### tree
 * Ähnlich zu einem UNIX-Ordner
 * Inhalt von tree-Objekten
-    * Objekttyp
+    * Objekttyp "tree"
     * SHA-1-Wert
     
 #### commit
 * Führt mehrere trees und blobs zu einer Art Snapshot-Objekt zusammen
 * Commits werden dabei chronologisch sortiert
 * Inhalt von commit-Objekten
-    * Objekttyp
+    * Objekttyp "commit"
     * SHA-1-Wert vom root-tree-Objekt
     * SHA-1-Wert vom parent-commit-Objekt
     * Autor
@@ -39,7 +39,7 @@
 * Eine Art Pointer auf einen bestimmten Commit
 * Ein bestimmter Commit kann durch einen annotierten Tag leichter wiedergefunden werden
 * Inhalt von tag-Objekten
-    * Objekttyp
+    * Objekttyp "tag"
     * SHA-1-Wert des Objektes, an das das Tag gesetzt wird
     * Objekttyp des Objektes, an das das Tag gesetzt wird
     * Tag-Name
