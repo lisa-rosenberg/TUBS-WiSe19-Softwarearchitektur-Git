@@ -11,34 +11,34 @@
 ## Aktionen des Nutzers
 
 ### lokales Repository erhalten
-git init
+#### git init
 * lokales Verzeichnis in git-Repository umwandeln
-git clone [Link]
+#### git clone [Link]
 * git-Repository von woanders (Link) klonen
 
 ### Änderungen zum Repository hinzufügen
-git status
+#### git status
 * Status/Zustand der Dateien prüfen
 * zeigt Dateien, die unversioniert oder versioniert und bearbeitet sind
 * gibt aktuellen Branch an
-git diff
+#### git diff
 * Änderungen detailliert ansehen (geänderte Zeilen)
-git add
+#### git add
 * Dateien oder Änderungen zur Versionskontrolle hinzufügen
-git commit
+#### git commit
 * Änderungen zum lokalen Repository hinzufügen
 * erstellt "Schnappschuss" des Projektes zu aktuellem Zeitpunkt
 * commits bilden Zustände, die später wieder hergestellt werden können
-git rm
+#### git rm
 * Dateien aus Versionskontrolle entfernen
 * zusätzliches Entfernen aus Working Directory
 
 ### Arbeiten mit Remote-Repository
-git fetch
+#### git fetch
 * lädt alle Daten aus Remote-Repository herunter, die lokal noch nicht vorhanden sind (ohne zu mergen)
-git pull
+#### git pull
 * lädt Updates herunter und merged sie in lokales Repo
-git push
+#### git push
 * Updates ins Remote-Repository übertragen
 
 
