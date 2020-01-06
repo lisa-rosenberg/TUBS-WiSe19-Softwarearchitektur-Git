@@ -24,8 +24,6 @@
 * veränderte Dateien können staging Bereich (für commit) hinzugefügt werden
 * staging Bereich kann commited werden -> dann zählen wieder alle Dateien als unverändert
 
-
-
 ### Quellen
 * Bildquellen:
     * [Git-Lifecycle-git-scm](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
@@ -33,7 +31,6 @@
 * [Versionsverwaltung  mit  Git](http://www.mi.fu-berlin.de/wiki/pub/AgMathLife/SoftWareProjectSS16/Praesentation_git.pdf)
 * [Two sides of Git: plumbing and porcelain](https://subscription.packtpub.com/book/application_development/9781849517522/8/ch08lvl1sec82/two-sides-of-git-plumbing-and-porcelain)
 * [Git: An introduction of plumbing and porcelain commands](https://de.slideshare.net/th507/git-an-intro-of-plumbing-and-porcelain-commands)
-* [What’s Wrong with Git? A Conceptual Design Analysis](https://spderosso.github.io/onward13.pdf)
 
 
 ## Aktionen des Nutzers
