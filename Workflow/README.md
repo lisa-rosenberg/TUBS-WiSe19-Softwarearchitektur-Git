@@ -2,10 +2,38 @@
 
 ## Arbeitsweise von Git
 
+* Dateien liegen in Repositories (Verzeichnissen)
+* Änderungen in Arbeitskopie
+* Checkout: Version aus Repo in Arbeitskopie übertragen
+* Commit: Änderungen der Arbeitskopie in Repo übertragen
+* verteilte Versionsverwaltung: jeder verfügt über lokale Kopie des Repos
+
+## Abläufe in Git
+
+### Plumbing and Porcelain
+
+* plumbing commands: Unterkommandos, steuern low-level Operationen, bilden die Basis
+* porcelain commands: rufen plumbing commands auf höherem Level auf, nutzerfreundlich, bilden quasi Abkürzung für lange plumbing commands
+* Bsp: git status = git ls-files --exclude-per-directory=.gitignore -exclude-from=.git/info/exclude -others --modified -t
+
+### Abläufe für Dateien
+
+* unversionierte Datei kann zur Versionskontrolle hinzugefügt werden (staged)
+* versionierte Dateien werden in unverändert und verändert unterteilt
+* unveränderte Dateien können verändert werden
+* veränderte Dateien können staging Bereich (für commit) hinzugefügt werden
+* staging Bereich kann commited werden -> dann zählen wieder alle Dateien als unverändert
+
+
+
 ### Quellen
 * Bildquellen:
     * [Git-Lifecycle-git-scm](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 * [Git Internals - Plumbing and Porcelain](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain)
+* [Versionsverwaltung  mit  Git](http://www.mi.fu-berlin.de/wiki/pub/AgMathLife/SoftWareProjectSS16/Praesentation_git.pdf)
+* [Two sides of Git: plumbing and porcelain](https://subscription.packtpub.com/book/application_development/9781849517522/8/ch08lvl1sec82/two-sides-of-git-plumbing-and-porcelain)
+* [Git: An introduction of plumbing and porcelain commands](https://de.slideshare.net/th507/git-an-intro-of-plumbing-and-porcelain-commands)
+* [What’s Wrong with Git? A Conceptual Design Analysis](https://spderosso.github.io/onward13.pdf)
 
 
 ## Aktionen des Nutzers
