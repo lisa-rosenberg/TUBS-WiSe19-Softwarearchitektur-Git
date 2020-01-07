@@ -1,6 +1,10 @@
 # Workflow
 
 ## Arbeitsweise von Git
+![Git-Workflow](Git-Workflow.png "Git-Workflow")
+
+<img src="Git-Workflow.png" alt="Git-Workflow" width="500"/>
+
 * Dateien liegen in Repositories (Verzeichnissen)
 * Änderungen in Arbeitskopie
 * Checkout: Version aus Repo in Arbeitskopie übertragen
@@ -15,6 +19,10 @@
 * Bsp: git status = git ls-files --exclude-per-directory=.gitignore -exclude-from=.git/info/exclude -others --modified -t
 
 ### Abläufe für Dateien
+![Git-Lifecycle](Git-Lifecycle.png "Git-Lifecycle")
+
+<img src="Git-Lifecycle.png" alt="Git-Lifecycle" width="500"/>
+
 * unversionierte Datei kann zur Versionskontrolle hinzugefügt werden (staged)
 * versionierte Dateien werden in unverändert und verändert unterteilt
 * unveränderte Dateien können verändert werden
@@ -31,6 +39,10 @@
 
 
 ## Aktionen des Nutzers
+
+![Git-Stages](Git-Stages.png "Git-Stages")
+
+<img src="Git-Stages.png" alt="Git-Stages" width="500"/>
 
 ### lokales Repository erhalten
 #### git init

@@ -1,10 +1,24 @@
 # Architektur und Datentypen
 
 ## Architektur
+![Git-Architektur](Git-Architecture.png "Git-Architektur")
+
+<img src="Git-Architecture.png" alt="Git-Architektur" width="500"/>
 
 ### Quellen
 
 ## Datentypen
+![Git-Objects](Git-Objects.png "Git-Objects")
+
+<img src="Git-Objects.png" alt="Git-Objects" width="500"/>
+
+![Git-References](Git-References.png "Git-References")
+
+<img src="Git-References.png" alt="Git-References" width="500"/>
+
+![Aufbau eines Commits](Aufbau-Commit.png "Aufbau eines Commits")
+
+<img src="Aufbau-Commit.png" alt="Aufbau eines Commits" width="500"/>
 
 ### Beschreibung der Datentypen
 
