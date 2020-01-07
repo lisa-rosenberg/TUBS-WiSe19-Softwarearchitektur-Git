@@ -1,7 +1,6 @@
 # Systembewertung
 
 ## Bewertung der Design Patterns
-
 ### Verwendete Design Patterns in Git
 * Linus Torvald hat Git (und auch Linux) ins Leben gerufen
 * Als Linus Torvald Linux geschrieben hat, existierte das Buch "Design Patterns" noch nicht
@@ -21,7 +20,6 @@
 * Commits ähneln einer Linked List und damit ähnelt Git in gewisser Weise einer vereinfachten Blockchain
 
 ### Ähnlichkeiten zu bekannten Design Patterns
-
 #### Entwurfsmuster
 * Facade
     * Der User nutzt fast nur Porcelain-Kommandos

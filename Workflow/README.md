@@ -1,7 +1,7 @@
 # Workflow
 
 ## Arbeitsweise von Git
-<img src="Git-Workflow.png" alt="Git-Workflow" width="600"/>
+![Git-Workflow](Git-Workflow.png "Git-Workflow")
 
 * Dateien liegen in Repositories (Verzeichnissen)
 * Änderungen in Arbeitskopie
@@ -10,14 +10,13 @@
 * verteilte Versionsverwaltung: jeder verfügt über lokale Kopie des Repos
 
 ## Abläufe in Git
-
 ### Plumbing and Porcelain
 * plumbing commands: Unterkommandos, steuern low-level Operationen, bilden die Basis
 * porcelain commands: rufen plumbing commands auf höherem Level auf, nutzerfreundlich, bilden quasi Abkürzung für lange plumbing commands
 * Bsp: git status = git ls-files --exclude-per-directory=.gitignore -exclude-from=.git/info/exclude -others --modified -t
 
 ### Abläufe für Dateien
-<img src="Git-Lifecycle.png" alt="Git-Lifecycle" width="600"/>
+![Git-Lifecycle](Git-Lifecycle.png "Git-Lifecycle")
 
 * unversionierte Datei kann zur Versionskontrolle hinzugefügt werden (staged)
 * versionierte Dateien werden in unverändert und verändert unterteilt
@@ -33,9 +32,8 @@
 * [Two sides of Git: plumbing and porcelain](https://subscription.packtpub.com/book/application_development/9781849517522/8/ch08lvl1sec82/two-sides-of-git-plumbing-and-porcelain)
 * [Git: An introduction of plumbing and porcelain commands](https://de.slideshare.net/th507/git-an-intro-of-plumbing-and-porcelain-commands)
 
-
 ## Aktionen des Nutzers
-<img src="Git-Stages.png" alt="Git-Stages" width="600"/>
+![Git-Stages](Git-Stages.png "Git-Stages")
 
 ### lokales Repository erhalten
 #### git init

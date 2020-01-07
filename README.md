@@ -1,7 +1,6 @@
 # Softwarearchitektur - Architekturbewertung von Git
 
 ## Einleitung
-
 ### Ziel
 In dieser Gruppenaufgabe soll eine Architekturbewertung der Open-Source-Software Git erfolgen.
 In diesem Repository befinden sich alle Ergebnisse der Gruppenarbeit.
