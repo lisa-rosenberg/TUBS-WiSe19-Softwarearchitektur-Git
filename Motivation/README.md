@@ -1,10 +1,5 @@
 # Motivation
 
-## Quellen
-* [Qick Intro to Git and Github](http://hplgit.github.io/teamods/bitgit/html/._main_bitgit001.html)
-* [Git for Scientists](https://neurathsboat.blog/post/git-intro/)
-* [The entire Pro Git book - Kapitel 1.3](https://www.git-scm.com/book/de/v2)
-
 ## Entstehung
 * für OpenSourceProjekt Linux Kernel (angestoßen von Linus Torvalds) wurde ab 2002 Bitkeeper verwendet (Verteilte Versionsverwaltung)
 * 2005 ging Beziehnung zwischen Linux-Community und dem komertiellen Unternehmen von Bitkeeper zu Brücke -> kostenloser Zugang nicht mehr gewährt
@@ -17,9 +12,19 @@
 * vollständige dezentrale Struktur
 * Fähigkeit große Projekte effektiv zu verwalten
 
+## Verwendung von Design Patterns in Git
+* Linus Torvald hat Git (und auch Linux) ins Leben gerufen
+* Als Linus Torvald Linux geschrieben hat, existierte das Buch "Design Patterns" noch nicht
+* Er ist ein sehr erfahrener Programmierer und hat sich noch nie an Design Patterns orientiert
+* Demnach wurden in Git keine Design Patterns verwendet
+
+## Quellen
+* [Qick Intro to Git and Github](http://hplgit.github.io/teamods/bitgit/html/._main_bitgit001.html)
+* [Git for Scientists](https://neurathsboat.blog/post/git-intro/)
+* [The entire Pro Git book - Kapitel 1.3](https://www.git-scm.com/book/de/v2)
+* [Quora: Design Patterns of Git](https://www.quora.com/What-design-patterns-did-Linus-Torvalds-use-when-writing-Git)
 
 ## Abgrenzung von Dropbox und GoogleDrive
-
 ### Alle
 * Dateien auf verschiedenen Geräten teilen
 * so viele Nutzer wie man möchte

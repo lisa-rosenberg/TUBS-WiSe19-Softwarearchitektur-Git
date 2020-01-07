@@ -10,19 +10,15 @@
 * verteilte Versionsverwaltung: jeder verfügt über lokale Kopie des Repos
 
 ## Abläufe in Git
-### Plumbing and Porcelain
-* plumbing commands: Unterkommandos, steuern low-level Operationen, bilden die Basis
-* porcelain commands: rufen plumbing commands auf höherem Level auf, nutzerfreundlich, bilden quasi Abkürzung für lange plumbing commands
-* Bsp: git status = git ls-files --exclude-per-directory=.gitignore -exclude-from=.git/info/exclude -others --modified -t
-
-### Abläufe für Dateien
-![Git-Lifecycle](Git-Lifecycle.png "Git-Lifecycle")
+### Datei-Workflow
+![Git-Stages](Git-Stages.png "Git-Stages")
 
 * unversionierte Datei kann zur Versionskontrolle hinzugefügt werden (staged)
 * versionierte Dateien werden in unverändert und verändert unterteilt
 * unveränderte Dateien können verändert werden
 * veränderte Dateien können staging Bereich (für commit) hinzugefügt werden
 * staging Bereich kann commited werden -> dann zählen wieder alle Dateien als unverändert
+* Branches können jederzeit erstellt werden und erleichtern die Teamarbeit
 
 ### Quellen
 * Bildquellen:
@@ -32,12 +28,21 @@
 * [Two sides of Git: plumbing and porcelain](https://subscription.packtpub.com/book/application_development/9781849517522/8/ch08lvl1sec82/two-sides-of-git-plumbing-and-porcelain)
 * [Git: An introduction of plumbing and porcelain commands](https://de.slideshare.net/th507/git-an-intro-of-plumbing-and-porcelain-commands)
 
-## Aktionen des Nutzers
-![Git-Stages](Git-Stages.png "Git-Stages")
+## Arbeiten mit Git
+![Git-Lifecycle](Git-Lifecycle.png "Git-Lifecycle")
+
+### Plumbing and Porcelain
+* plumbing commands: Unterkommandos, steuern low-level Operationen, bilden die Basis
+* porcelain commands: rufen plumbing commands auf höherem Level auf, nutzerfreundlich, bilden quasi Abkürzung für lange plumbing commands
+* Bsp: git status = git ls-files --exclude-per-directory=.gitignore -exclude-from=.git/info/exclude -others --modified -t
+* Ähnlichkeiten zum Facade-Entwurfsmuster
+    * Der User nutzt fast nur Porcelain-Kommandos
+    * Nur in Ausnahmefällen werden Plumbing-Kommandos verwendet (händische/tiefe Eingriffe, nie normale Git-Nutzung!)
+    * Porcelain-Kommandos rufen in der inneren Struktur von Git Plumbing-Kommandos auf
 
 ### lokales Repository erhalten
 #### git init
-* lokales Verzeichnis in git-Repository umwandeln
+* git-Repository in lokalem Verzeichnis anlegen 
 
 #### git clone [Link]
 * git-Repository von woanders (Link) klonen
@@ -73,6 +78,14 @@
 #### git push
 * Updates ins Remote-Repository übertragen
 
+### Ähnlichkeiten zu bekannten Architekturmustern
+* Client-Server
+    * Das Zusammenspiel zwischen remote- und local-Repository kann als Client-Server-Model angesehen werden
+    * Mithilfe von z.B. git pull wird ein Request zum Webserver (z.B. GitHub) gesendet, auf dem das remote-Repository liegt
+    * Als Antwort kann der Webserver den Request entweder akzeptieren oder ablehnen
+* Peer-to-Peer
+    * Zwischen mehreren entfernten Repositories besteht eine Art Peer-to-Peer-Netzwerk
+
 
 ### Quellen
 * Bildquellen:
@@ -81,3 +94,5 @@
 * [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 * [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 * [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+* [Architecture of Open-Source-Software (Git)](https://www.aosabook.org/en/git.html)
+* [Client-Server Model](https://techterms.com/definition/client-server_model)
