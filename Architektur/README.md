@@ -3,6 +3,8 @@
 ## Architektur
 ![Git-Architektur](Git-Architecture.png "Git-Architektur")
 
+### 
+
 ### Quellen
 * [Architecture of Open-Source-Software (Git)](https://www.aosabook.org/en/git.html)
 
