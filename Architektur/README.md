@@ -53,7 +53,18 @@
 ### Git-References
 ![Git-References](Git-References.png "Git-References")
 
+* Git-References bezeichnen Tags in einem Ordner innerhalb des .git-Ordners
+* Sämtliche Tags sind dort gespeichert
+    * Tags
+    * Remote-HEADs (Remote-Branches, die durch Git-Fetch lokal bekannt sind)
+    * Local-HEADs (Ausgecheckte lokale Branches)
+* Branches sind eigentlich nur Tags, die auf den aktuellsten Commit eines Branches zeigen bzw. referenzieren
+* Tags referenzieren persistent einen bestimmten Commit (z.B. "v.1.0")
+* HEADs sind "dynamische/flüchtige" Tags, die auf einen bestimmten Commit zeigen 
+
 ### Quellen
 * [Git Documentation: Git Internals - Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 * [Git Documentation: Git Internals - Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)
 * [Git Object Types](https://matthew-brett.github.io/curious-git/git_object_types.html)
+* [Tags vs Branches](https://en.wikibooks.org/wiki/Git/Advanced)
+* [Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
