@@ -1,7 +1,6 @@
 # Workflow
 
 ## Arbeitsweise von Git
-
 * Dateien liegen in Repositories (Verzeichnissen)
 * Änderungen in Arbeitskopie
 * Checkout: Version aus Repo in Arbeitskopie übertragen
@@ -11,13 +10,11 @@
 ## Abläufe in Git
 
 ### Plumbing and Porcelain
-
 * plumbing commands: Unterkommandos, steuern low-level Operationen, bilden die Basis
 * porcelain commands: rufen plumbing commands auf höherem Level auf, nutzerfreundlich, bilden quasi Abkürzung für lange plumbing commands
 * Bsp: git status = git ls-files --exclude-per-directory=.gitignore -exclude-from=.git/info/exclude -others --modified -t
 
 ### Abläufe für Dateien
-
 * unversionierte Datei kann zur Versionskontrolle hinzugefügt werden (staged)
 * versionierte Dateien werden in unverändert und verändert unterteilt
 * unveränderte Dateien können verändert werden
@@ -38,6 +35,7 @@
 ### lokales Repository erhalten
 #### git init
 * lokales Verzeichnis in git-Repository umwandeln
+
 #### git clone [Link]
 * git-Repository von woanders (Link) klonen
 
@@ -46,14 +44,18 @@
 * Status/Zustand der Dateien prüfen
 * zeigt Dateien, die unversioniert oder versioniert und bearbeitet sind
 * gibt aktuellen Branch an
+
 #### git diff
 * Änderungen detailliert ansehen (geänderte Zeilen)
+
 #### git add
 * Dateien oder Änderungen zur Versionskontrolle hinzufügen
+
 #### git commit
 * Änderungen zum lokalen Repository hinzufügen
 * erstellt "Schnappschuss" des Projektes zu aktuellem Zeitpunkt
 * commits bilden Zustände, die später wieder hergestellt werden können
+
 #### git rm
 * Dateien aus Versionskontrolle entfernen
 * zusätzliches Entfernen aus Working Directory
@@ -61,8 +63,10 @@
 ### Arbeiten mit Remote-Repository
 #### git fetch
 * lädt alle Daten aus Remote-Repository herunter, die lokal noch nicht vorhanden sind (ohne zu mergen)
+
 #### git pull
 * lädt Updates herunter und merged sie in lokales Repo
+
 #### git push
 * Updates ins Remote-Repository übertragen
 

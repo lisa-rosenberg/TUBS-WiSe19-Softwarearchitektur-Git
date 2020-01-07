@@ -24,16 +24,15 @@
 
 #### Entwurfsmuster
 * Facade
-    * Der User nutzt fast nur Porcelain-Kommandos nur in Ausnahmefällen Plumbing-Kommandos
+    * Der User nutzt fast nur Porcelain-Kommandos
+    * Nur in Ausnahmefällen werden Plumbing-Kommandos verwendet (händische/tiefe Eingriffe, nie normale Git-Nutzung!)
     * Porcelain-Kommandos rufen in der inneren Struktur von Git Plumbing-Kommandos auf
-* Command?
-* Composite?
 
 #### Architekturmuster
 * Client-Server
     * Das Zusammenspiel zwischen remote- und local-Repository kann als Client-Server-Model angesehen werden
     * Mithilfe von z.B. git pull wird ein Request zum Webserver (z.B. GitHub) gesendet, auf dem das remote-Repository liegt
-    * Als Antwort kann der Webserver den Request entweder aktzeptieren oder ablehnen
+    * Als Antwort kann der Webserver den Request entweder akzeptieren oder ablehnen
 * Peer-to-Peer
     * Zwischen mehreren entfernten Repositories besteht eine Art Peer-to-Peer-Netzwerk
 
