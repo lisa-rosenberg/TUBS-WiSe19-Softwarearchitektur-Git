@@ -1,18 +1,14 @@
 # Architektur und Datentypen
 
 ## Architektur
-![Git-Architektur](Git-Architecture.png "Git-Architektur")
+<img src="Git-Architecture.png" alt="Git-Architektur" width="600"/>
 
 ### Quellen
 
-## Datentypen
-![Git-Objects](Git-Objects.png "Git-Objects")
-
-![Git-References](Git-References.png "Git-References")
-
-![Aufbau eines Commits](Aufbau-Commit.png "Aufbau eines Commits")
+## Datentypen und References
 
 ### Beschreibung der Datentypen
+<img src="Git-Objects.png" alt="Git-Objects" width="600"/>
 
 #### blob
 * Ähnlich einer Datei
@@ -29,6 +25,8 @@
     * SHA-1-Wert
     
 #### commit
+<img src="Aufbau-Commit.png" alt="Aufbau eines Commits" width="600"/>
+
 * Führt mehrere trees und blobs zu einer Art Snapshot-Objekt zusammen
 * Commits werden dabei chronologisch sortiert
 * Inhalt von commit-Objekten
@@ -52,6 +50,9 @@
     * Autor
     * Datum (Autor)
     * Tag-Message
+    
+### Git-References
+<img src="Git-References.png" alt="Git-References" width="600"/>
 
 ### Quellen
 * [Git Documentation: Git Internals - Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
