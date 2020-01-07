@@ -4,6 +4,7 @@
 ![Git-Architektur](Git-Architecture.png "Git-Architektur")
 
 ### Quellen
+* [Architecture of Open-Source-Software (Git)](https://www.aosabook.org/en/git.html)
 
 ## Datentypen und Referenzen
 ### Beschreibung der Datentypen
@@ -24,8 +25,6 @@
     * SHA-1-Wert
     
 #### commit
-![Aufbau eines Commits](Aufbau-Commit.png "Aufbau eines Commits")
-
 * Führt mehrere trees und blobs zu einer Art Snapshot-Objekt zusammen
 * Commits werden dabei chronologisch sortiert
 * Inhalt von commit-Objekten
