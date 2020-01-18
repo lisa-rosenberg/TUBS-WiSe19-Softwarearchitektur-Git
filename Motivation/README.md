@@ -23,6 +23,7 @@
 * [Git for Scientists](https://neurathsboat.blog/post/git-intro/)
 * [The entire Pro Git book - Kapitel 1.3](https://www.git-scm.com/book/de/v2)
 * [Quora: Design Patterns of Git](https://www.quora.com/What-design-patterns-did-Linus-Torvalds-use-when-writing-Git)
+* [HackBright SVN vs.Git](https://hackbrightacademy.com/blog/svn-vs-git/)
 
 ## Abgrenzung von Dropbox und GoogleDrive
 ### Alle
